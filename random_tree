@@ -1,0 +1,51 @@
+import turtle as t
+import random
+def treeb(n):
+        if n > 36:
+            t.right(-5)
+            t.fd(n)
+
+            treeb(n - 6)
+
+            t.back(n)
+            t.left(10)
+            
+            t.fd(n)
+
+            treeb(n - 6)
+
+            t.back(n)
+            t.right(15)
+
+
+def treea(n):
+       if n > 36:
+            t.right(5)
+            t.fd(n)
+
+            treea(n - 6)
+
+            t.back(n)
+            t.left(-10)
+
+            t.fd(n)
+
+            treea(n - 6)
+
+            t.back(n)
+            t.right(-15)
+t.seth(90)
+t.speed(0)
+t.delay(0)
+
+for i in range(50):
+        x =random.randint(-150,150)
+        t.up ()
+        t.goto(x,random.randint(-150,70))
+        t.down()
+        if x <0:
+                t.seth(90)
+                treeb(random.randint(60,80))
+        else:
+                treea(random.randint(60,80))
+    

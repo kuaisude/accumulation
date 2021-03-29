@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a[6] = {1,2,3,4,5,6};
+	int pi = 0;
+	int pj = 5;
+	int t , i;
+	while(pi < pj){
+		t = a[pi];
+		a[pi] = a[pj];
+		a[pj] = t;
+		pi ++ ;
+		pj --;
+	}
+	
+	for(i = 0;i<6;i++)
+	{
+		cout<<a[i]<<",";
+		cout<<endl;
+		return 0;
+	}
+}

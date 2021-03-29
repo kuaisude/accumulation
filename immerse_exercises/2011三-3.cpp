@@ -1,0 +1,29 @@
+/*
+	 ‰»Î£∫
+	11
+	4 5 6 6 4 3 3 2 3 2 1 
+*/
+
+#include<iostream>
+#include<cstring>
+using namespace std;
+const int SIZE = 100;
+int main()
+{
+	int n,i,sum,x,a[SIZE];
+	cin >> n;
+	memset(a,0,sizeof(a));
+	for(i = 1;i <= n;i++)
+	{
+		cin >> x;
+		a[x] ++ ;
+	}
+	i = 0;sum = 0;
+	while(sum<(n/2+1)){
+		i++;
+		sum += a[i]; 
+	}
+	
+	cout<<i<<endl;
+	return 0;
+}

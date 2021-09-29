@@ -5,7 +5,7 @@ int main()
 {
 	int n,m;
 	cin >> n >> m;
-	int a[n+1];//下标号的猴子，是否出局
+	int a[n+1];//下标号的猴子编号，是否出局 
 	memset(a,-1,sizeof(a));
 	
 	int l = 0;//报数猴子的位置 

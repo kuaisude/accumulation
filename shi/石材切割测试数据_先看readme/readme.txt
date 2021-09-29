@@ -1,0 +1,216 @@
+1.zdf1-16.txt
+	n	W	H
+zdf1	580	100	330
+zdf2	660	100	357
+zdf3	740	100	384
+zdf4	820	100	407
+zdf5	900	100	434
+zdf6	1532	3000	4872
+zdf7	2432	3000	4852
+zdf8	2532	3000	5172
+zdf9	5032	3000	5172
+zdf10	5064	6000	5172
+zdf11	7564	6000	5172
+zdf12	10064	6000	5172
+zdf13	15096	9000	5172
+zdf14	25032	3000	5172
+zdf15	50032	3000	5172
+zdf16	75032	3000	5172
+
+The format of each of these data files is:
+for each piece i (i=1,...,n): 
+  width w_i  height h_i 
+
+
+2.t1a-t7e,n1a-n7e.txt
+The format of each of these data files is:
+H,W
+n
+for each piece i (i=1,...,n): 
+  width w_i  height h_i 
+
+3.NGCUT gcut cgcut beng
+        n       W       H
+cgcut1	16	10	23
+cgcut2	23	70	63
+cgcut3	62	70	636
+gcut1	10	250	1016
+gcut2	20	250	1133
+gcut3	30	250	1803
+gcut4	50	250	2934
+gcut5	10	500	1172
+gcut6	20	500	2514
+gcut7	30	500	4641
+gcut8	50	500	5703
+gcut9	10	1000	2022
+gcut10	20	1000	5356
+gcut11	30	1000	6537
+gcut12	50	1000	12522
+gcut13	32	3000	4772
+ngcut1	10	10	23
+ngcut2	17	10	30
+ngcut3	21	10	28
+ngcut4	7	10	20
+ngcut5	14	10	36
+ngcut6	15	10	29
+ngcut7	8	20	20
+ngcut8	13	20	32
+ngcut9	18	20	49
+ngcut10	13	30	80
+ngcut11	15	30	50
+ngcut12	22	30	87
+beng1	20	25	30
+beng2	40	25	57
+beng3	60	25	84
+beng4	80	25	107
+beng5	100	25	134
+beng6	40	40	36
+beng7	80	40	67
+beng8	120	40	101
+beng9	160	40	126
+beng10	200	40	156
+
+The format of each of these data files is:
+number n of items
+width W for the strip 
+for each piece i (i=1,...,n): 
+  index i, width w_i and height h_i of item i.
+
+4.n1-n13.txt
+        n       W       H
+N1	10	40	40
+N2	20	30	50
+N3	30	30	50
+N4	40	80	80
+N5	50	100	100
+N6	60	50	100
+N7	70	80	100
+N8	80	100	80
+N9	100	50	150
+N10	200	70	150
+N11	300	70	150
+N12	500	100	300
+N13	3152	640	960
+The format of each of these data files is:
+for each piece i (i=1,...,n): 
+  width w_i  height h_i 
+
+5.lw161-lw197.txt
+n       W       H
+16	20	20
+17	20	20
+16	20	20
+25	40	15
+25	40	15
+25	40	15
+28	60	30
+29	60	30
+28	60	30
+49	60	60
+49	60	60
+49	60	60
+73	60	90
+73	60	90
+73	60	90
+97	80	120
+97	80	120
+97	80	120
+196	160	240
+197	160	240
+196	160	240
+The format of each of these data files is:
+for each piece i (i=1,...,n): 
+  width w_i  height h_i 
+
+6.50-15000.txt
+n       W       H
+50	400	600
+100	400	600
+500	400	600
+1000	400	600
+5000	400	600
+10000	400	600
+15000	400	600
+The format of each of these data files is:
+for each piece i (i=1,...,n): 
+  width w_i  height h_i 
+
+7.Nice-Path
+	n	W	H
+Nice1	25	1000	1000
+Nice2	50	1000	1001
+Nice3	100	1000	1001
+Nice4	200	1000	1001
+Nice5	500	1000	1000
+Nice6	1000	1000	999
+Nice1t	1000	1000	1001
+	1000	1000	1001
+	1000	1000	1000
+	1000	1000	1000
+	1000	1000	1000
+	1000	1000	1001
+	1000	1000	1000
+	1000	1000	1001
+	1000	1000	1000
+	1000	1000	1001
+Nice2t	2000	1000	1001
+	2000	1000	1001
+	2000	1000	1000
+	2000	1000	1000
+	2000	1000	1000
+	2000	1000	1000
+	2000	1000	1001
+	2000	1000	1001
+	2000	1000	1001
+	2000	1000	1001
+Nice5t	5000	1000	1000
+	5000	1000	1001
+	5000	1000	1001
+	5000	1000	1000
+	5000	1000	1001
+	5000	1000	1000
+	5000	1000	1001
+	5000	1000	1000
+	5000	1000	1001
+	5000	1000	1000
+Path1	25	1000	1001
+Path2	50	1000	1000
+Path3	100	1000	1000
+Path4	200	1000	1002
+Path5	500	1000	1000
+Path6	1000	1000	1002
+Path1t	1000	1000	999
+	1000	1000	1001
+	1000	1000	1001
+	1000	1000	1000
+	1000	1000	1003
+	1000	1000	1002
+	1000	1000	999
+	1000	1000	1000
+	1000	1000	999
+	1000	1000	1002
+Path2t	2000	1000	1000
+	2000	1000	1002
+	2000	1000	1000
+	2000	1000	999
+	2000	1000	1002
+	2000	1000	1002
+	2000	1000	998
+	2000	1000	998
+	2000	1000	1001
+	2000	1000	1003
+Path5t	5000	1000	1000
+	5000	1000	998
+	5000	1000	1000
+	5000	1000	995
+	5000	1000	1004
+	5000	1000	1000
+	5000	1000	998
+	5000	1000	996
+	5000	1000	997
+	5000	1000	1002
+The format of each of these data files is:
+W H area
+n 
+for each piece i (i=1,...,n): 
+  index i, width w_i and height h_i of item i.
